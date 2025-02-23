@@ -55,7 +55,7 @@ const UrlList = ({ urls, onDelete, onViewAnalytics, onViewQR }) => {
             <TableCell>Original URL</TableCell>
             <TableCell>Clicks</TableCell>
             <TableCell>Created</TableCell>
-            <TableCell>Status</TableCell>
+            {/* <TableCell>Status</TableCell> */}
             <TableCell>Actions</TableCell>
           </TableRow>
         </TableHead>
@@ -74,13 +74,13 @@ const UrlList = ({ urls, onDelete, onViewAnalytics, onViewQR }) => {
               </TableCell>
               <TableCell>{url.clicks}</TableCell>
               <TableCell>{formatDate(url.createdAt)}</TableCell>
-              <TableCell>
+              {/* <TableCell>
                 <Chip
                   label={url.isActive ? "Active" : "Inactive"}
                   color={url.isActive ? "success" : "default"}
                   size="small"
                 />
-              </TableCell>
+              </TableCell> */}
               <TableCell>
                 <IconButton onClick={() => copyToClipboard(url.shortUrl)}>
                   <ContentCopy fontSize="small" />
