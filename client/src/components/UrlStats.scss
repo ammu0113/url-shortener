@@ -1,0 +1,61 @@
+.url-stats {
+  padding: 20px;
+  background: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+
+  h3 {
+    color: #333;
+    margin-bottom: 20px;
+  }
+
+  .stats-container {
+    display: grid;
+    gap: 20px;
+  }
+
+  .stats-card {
+    background: #f8f9fa;
+    padding: 15px;
+    border-radius: 6px;
+    text-align: center;
+
+    h4 {
+      color: #666;
+      margin-bottom: 10px;
+    }
+
+    p {
+      font-size: 24px;
+      color: #007bff;
+      font-weight: bold;
+    }
+  }
+
+  .analytics-list {
+    margin-top: 20px;
+
+    h4 {
+      color: #666;
+      margin-bottom: 15px;
+    }
+
+    .analytics-item {
+      background: #f8f9fa;
+      padding: 15px;
+      border-radius: 6px;
+      margin-bottom: 10px;
+
+      p {
+        margin: 5px 0;
+        color: #555;
+      }
+    }
+  }
+
+  .stats-loading {
+    text-align: center;
+    padding: 20px;
+    color: #666;
+  }
+} 
