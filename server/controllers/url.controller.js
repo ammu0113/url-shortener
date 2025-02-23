@@ -1,6 +1,7 @@
 const { nanoid } = require("nanoid");
 const Url = require("../models/Url");
 const geoip = require("geoip-lite");
+const { isValidUrl } = require("../utils/urlValidator");
 
 const urlController = {
   // Create short URL
